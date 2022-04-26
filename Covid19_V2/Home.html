@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/libs/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./NewsCovid19.html">
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./sass/content/content.css">
+    <link rel="stylesheet" href="./sass/header/header.css">
+    <link rel="stylesheet" href="/css/base.css">
+
+    <title>Covid19</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="header-top">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="date-time"></div>
+                <div class="date-time--replace">
+                    <i class="fa-solid fa-bars menu-bars"></i>
+                    <i class="fa-solid fa-xmark hide menu-close"></i>
+                </div>
+
+                <div class="header-top--contact d-flex justify-content-between align-items-center">
+                    <div class="header-top--search">
+                        <input type="text" placeholder="Enter something..." class="header-top--input">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="header-top--telephone">
+                        <p>Đường dây nóng: 19009095</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="header-middle">
+           <div class="container d-flex">
+               <div class="header-middle--img">
+                   <img src="./img/logo.png" alt="" >
+               </div>
+               <div class="header-middle-title">
+                CỔNG THÔNG TIN CỦA BỘ Y TẾ VỀ ĐẠI DỊCH COVID-19
+               </div>
+           </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+               <div class="header-bottom--menu">
+                    <ul >
+                        <li class="header-botton--it"><a href="Home.html" class="nav-link"><i class="fa-solid fa-house"></i></a></li>
+                        <li class="header-botton--item"><a href="NewsCovid19.html" class="nav-link">Bản tin Covid-19</a></li>
+                        <li class="header-botton--item"><a href="ChongDich.html" class="nav-link">Chỉ đạo chống dịch</a></li>
+                        <li class="header-botton--item"><a href="DuPhong.html" class="nav-link">Dự phòng - Điều trị</a></li>
+                        <li class="header-botton--item"><a href="Vaccine.html" class="nav-link">Vaccine - Tiêm chủng</a></li>
+                        <li class="header-botton--item"><a href="Activities.html" class="nav-link">Hoạt động địa phương</a></li>
+                        <li class="header-botton--item"><a href="Direction.html" class="nav-link">Hướng dân</a></li>
+                        <li class="header-botton--item"><a href="Video.html" class="nav-link">Video</a></li>
+                        <li class="header-botton--item"><a href="News.html" class="nav-link">Tin tức</a></li>
+                        <li class="header-botton--item"><a href="World.html" class="nav-link">Tình hình thế giới</a></li>
+                    </ul>
+               </div>
+            </div>
+        </div>
+
+        <div class="header-sub--responsive">
+            <div class="container">
+                <div class="header-sub--wrap">
+                    <div class="header-sub--search d-flex align-items-center">
+                        <input type="text" placeholder="Enter something..." class="header-top--input">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                     <ul >
+                         <li class="header-bottom--item"><a target="_self" href="#" class="nav-link"><i class="fa-solid fa-house"></i></a></li>
+                         <li class="header-bottom--item"><a target="_blank" href="NewsCovid19.html" class="nav-link">Bản tin Covid-19</a></li>
+                         <li class="header-bottom--item"><a target="_self" href="#" class="nav-link">Chỉ đạo chống dịch</a></li>
+                         <li class="header-bottom--item"><a target="_self" href="" class="nav-link">Dự phòng - Điều trị</a></li>
+                         <li class="header-bottom--item"><a target="_self" href="" class="nav-link">Vaccine - Tiêm chủng</a></li>
+                         <li class="header-bottom--item"><a target="_self" href="" class="nav-link">Hoạt động địa phương</a></li>
+                         <li class="header-bottom--item"><a target="_self" href="" class="nav-link">Hướng dân</a></li>
+                         <li class="header-bottom--item"><a target="_self" href="" class="nav-link">Video</a></li>
+                         <li class="header-bottom--item"><a target="_self" href="" class="nav-link">Tin tức</a></li>
+                         <li class="header-bottom--item"><a target="_self" href="" class="nav-link">Tình hình thế giới</a></li>
+                     </ul>
+                </div>
+             </div>
+        </div>
+
+    </header>
+  
+
+    <div class="content VN-TG">
+        <div class="container container-line">
+            <div class="title">
+                <a href="#" class="title-bars title-name title-name--VN">Việt Nam</a>
+  
+                <a href="#" class="title-name title-name--World">Thế giới</a>
+               
+            </div>
+
+            <div class="content-information--covid d-flex justify-content-between align-items-center">
+                <div class="content-information--width content-information--details number-covid" style="--color: rgba(237, 28, 36, 0.1)">
+                    <div class="name-details">
+                        Số Ca Nhiễm
+                    </div>
+                    <div class="number-details" style="--colorText: red">10.533.164</div>
+                    <div class="time-details">24 giờ qua <span>+30.574</span> </div>
+                </div>
+                <div class="content-information--width content-information--details number-success" style="--color: rgba(40, 167, 69, 0.1)">
+                    <div class="name-details">
+                        Khỏi
+                    </div>
+                    <div class="number-details" style="--colorText: green">9.076.927</div>
+                    <div class="time-details">24 giờ qua <span>+30.574</span> </div>
+                </div>
+                <div class="content-information--width content-information--details number-death" style="--color: #F0EFF4">
+                    <div class="name-details">
+                        Tử vong
+                    </div>
+                    <div class="number-details" style="--colorText: $textType">42.991</div>
+                    <div class="time-details">24 giờ qua <span>+30.574</span> </div>
+                </div>
+            </div>
+
+            <div class="content-article d-flex justify-content-between flex-sm-column flex-md-row flex-column">
+                <div class="col-md-8 col-sm-12 col-xs-12 content-article--details">
+
+                    <div class="article--img">
+                        <a  href="https://covid19.gov.vn/chuan-bi-chu-dao-tiem-vaccine-phong-covid-19-cho-tre-tu-5-den-duoi-12-tuoi-171220422094844545.htm">
+                            <img src="./img/student-img.jpg" alt="" class="content-article--img">
+                        </a>
+                    </div>
+                    
+                    <div class="article--heading">
+                        <a href="https://covid19.gov.vn/chuan-bi-chu-dao-tiem-vaccine-phong-covid-19-cho-tre-tu-5-den-duoi-12-tuoi-171220422094844545.htm"
+                             class="article--heading-details"
+                        >
+                            Chuẩn bị chu đáo tiêm vaccine phòng COVID-19 cho trẻ từ 5 đến dưới 12 tuổi
+                        </a>
+                    </div>
+
+                    <div class="article--subHeading">
+                        <a  href="https://covid19.gov.vn/chuan-bi-chu-dao-tiem-vaccine-phong-covid-19-cho-tre-tu-5-den-duoi-12-tuoi-171220422094844545.htm">
+                            Ngày 21/1, nhiều địa phương trong cả nước đồng loạt tổ chức tiêm vaccine phòng COVID-19 cho trẻ em từ 5 đến dưới 12 tuổi.
+                        </a>
+                    </div>
+                </div>
+
+                <div class="content-article--information col-md-4 col-sm-12 col-xs-12">
+                    <div class="title">
+                        <a href="#" class="title-bars title-name title-font--size ">Diễn biến dịch</a>
+                    </div>
+                  <div class="article-wrap">
+                    <div class="article-information--wrap">
+                        <div class="information-content">
+                            <div class="information-content--details">
+                                <p class="time">
+                                    17:36 22/04/2022
+                                </p>
+                                <div class="notice">-
+                                    THÔNG BÁO VỀ 11.160 CA MẮC MỚI
+                                </div>
+                                <div class="details">
+                                    <p class="details-heading">
+                                        Tính từ 16h ngày 21/4 đến 16h ngày 22/4, trên Hệ thống Quốc gia quản lý ca bệnh COVID-19 ghi nhận 11.160 ca nhiễm mới, trong đó 0 ca nhập cảnh và 11.160 ca ghi nhận trong nước (giảm 869 ca so với ngày trước đó) tại 59 tỉnh, thành phố (có 8.015 ca trong cộng đồng).
+                                    </p>
+                                    <div class="details-body">
+                                        Các tỉnh, thành phố ghi nhận ca bệnh như sau: Hà Nội (980), Phú Thọ (761), Bắc Giang (539), Quảng Ninh (510), Nghệ An (489), Vĩnh Phúc (458), Yên Bái (452), Lào Cai (389), Hải Dương (373), Bắc Kạn (357), Tuyên Quang (352), Đắk Lắk (346), Thái Nguyên (309), Gia Lai (304), Sơn La (273), Thái Bình (255), Nam Định (225), Quảng Bình (222), Hưng Yên (220), Cao Bằng (210), Bà Rịa - Vũng Tàu (197), Lâm Đồng (194), Lạng Sơn (189), Bắc Ninh (176), Ninh Bình (169), Hà Giang (169), Hòa Bình (160), Hà Tĩnh (147), Hà Nam (137), Điện Biên (130), Đà Nẵng (126), Lai Châu (108), Bình Định (102), Tây Ninh (99), Bình Phước (97), TP. Hồ Chí Minh (93), Vĩnh Long (90), Phú Yên (81), Quảng Trị (80), Bến Tre (75), Quảng Nam (70), Đắk Nông (69), Cà Mau (64), Quảng Ngãi (63), Thanh Hóa (57), Bình Dương (33), Khánh Hòa (32), Bình Thuận (29), Long An (27), Thừa Thiên Huế (23), Bạc Liêu (13), An Giang (9), Trà Vinh (6), Kiên Giang (5), Cần Thơ (5), Kon Tum (4), Đồng Nai (4), Đồng Tháp (2), Hậu Giang (2).
+                                    </div>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                    <div class="article-information--wrap">
+                        <div class="information-content">
+                            <div class="information-content--details">
+                                <p class="time">
+                                    17:36 22/04/2022
+                                </p>
+                                <div class="notice">
+                                    THÔNG BÁO VỀ 11.160 CA MẮC MỚI
+                                </div>
+                                <div class="details">
+                                    <p class="details-heading">
+                                        Tính từ 16h ngày 21/4 đến 16h ngày 22/4, trên Hệ thống Quốc gia quản lý ca bệnh COVID-19 ghi nhận 11.160 ca nhiễm mới, trong đó 0 ca nhập cảnh và 11.160 ca ghi nhận trong nước (giảm 869 ca so với ngày trước đó) tại 59 tỉnh, thành phố (có 8.015 ca trong cộng đồng).
+                                    </p>
+                                    <div class="details-body">
+                                        Các tỉnh, thành phố ghi nhận ca bệnh như sau: Hà Nội (980), Phú Thọ (761), Bắc Giang (539), Quảng Ninh (510), Nghệ An (489), Vĩnh Phúc (458), Yên Bái (452), Lào Cai (389), Hải Dương (373), Bắc Kạn (357), Tuyên Quang (352), Đắk Lắk (346), Thái Nguyên (309), Gia Lai (304), Sơn La (273), Thái Bình (255), Nam Định (225), Quảng Bình (222), Hưng Yên (220), Cao Bằng (210), Bà Rịa - Vũng Tàu (197), Lâm Đồng (194), Lạng Sơn (189), Bắc Ninh (176), Ninh Bình (169), Hà Giang (169), Hòa Bình (160), Hà Tĩnh (147), Hà Nam (137), Điện Biên (130), Đà Nẵng (126), Lai Châu (108), Bình Định (102), Tây Ninh (99), Bình Phước (97), TP. Hồ Chí Minh (93), Vĩnh Long (90), Phú Yên (81), Quảng Trị (80), Bến Tre (75), Quảng Nam (70), Đắk Nông (69), Cà Mau (64), Quảng Ngãi (63), Thanh Hóa (57), Bình Dương (33), Khánh Hòa (32), Bình Thuận (29), Long An (27), Thừa Thiên Huế (23), Bạc Liêu (13), An Giang (9), Trà Vinh (6), Kiên Giang (5), Cần Thơ (5), Kon Tum (4), Đồng Nai (4), Đồng Tháp (2), Hậu Giang (2).
+                                    </div>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                  </div>
+                   <div class="btn-details d-flex align-items-center">
+                        <button class="btn more-details">
+                            Xem thêm
+                        </button>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-news Chidao">
+      <div class="home-news--wrap">
+        <div class="container container-line d-flex justify-content-between flex-md-row flex-column">
+            <div class="news-box news-box--left ">
+              <div class="title">
+                  <a href="#" class="title-bars title-name title-name--VN">Chỉ đạo chống dịch</a>      
+              </div>
+                <div class="home-news--box home-news--line d-flex">
+                    <div class="home-news--img news-img--width">
+                        <a href="#"><img src="./img/student-img.jpg"></img></a>
+                    </div>
+                    <div class="home-news-title--box news-title--width  ">
+                        <a href="#">
+                            <div class="home-news-title home-news--space">
+                                Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                            </div>
+                            <div class="home-news-sub ">
+                                Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-news--box home-news--line d-flex">
+                    <div class="home-news--img news-img--width">
+                        <a href="#"><img src="./img/student-img.jpg"></img></a>
+                    </div>
+                    <div class="home-news-title--box news-title--width  ">
+                        <a href="#">
+                            <div class="home-news-title home-news--space">
+                                Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                            </div>
+                            <div class="home-news-sub ">
+                                Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-news--box  d-flex">
+                    <div class="home-news--img news-img--width">
+                        <a href="#"><img src="./img/student-img.jpg"></img></a>
+                    </div>
+                    <div class="home-news-title--box news-title--width  ">
+                        <a href="#">
+                            <div class="home-news-title home-news--space">
+                                Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                            </div>
+                            <div class="home-news-sub ">
+                                Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-box  ">
+                <div class="title">
+                    <a href="#" class="title-bars title-name title-name--VN">Bản tin Covid-19</a>      
+                </div>
+                  <div class="home-news--box home-news--line d-flex">
+                      <div class="home-news--img news-img--width">
+                          <a href="#"><img src="./img/student-img.jpg"></img></a>
+                      </div>
+                      <div class="home-news-title--box news-title--width  ">
+                          <a href="#">
+                              <div class="home-news-title home-news--space">
+                                  Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                              </div>
+                              <div class="home-news-sub ">
+                                  Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="home-news--box home-news--line d-flex">
+                      <div class="home-news--img news-img--width">
+                          <a href="#"><img src="./img/student-img.jpg"></img></a>
+                      </div>
+                      <div class="home-news-title--box news-title--width  ">
+                          <a href="#">
+                              <div class="home-news-title home-news--space">
+                                  Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                              </div>
+                              <div class="home-news-sub ">
+                                  Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="home-news--box  d-flex">
+                      <div class="home-news--img news-img--width">
+                          <a href="#"><img src="./img/student-img.jpg"></img></a>
+                      </div>
+                      <div class="home-news-title--box news-title--width  ">
+                          <a href="#">
+                              <div class="home-news-title home-news--space">
+                                  Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                              </div>
+                              <div class="home-news-sub ">
+                                  Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="home-news vaccine-news">
+        <div class="home-news--wrap">
+            <div class="container container-line d-flex justify-content-between flex-md-row flex-column">
+                <div class="col-12">
+                  <div class="title">
+                      <a href="#" class="title-bars title-name title-name--VN">Vaccine - Tiêm chủng</a>      
+                  </div>
+                  <div class="news-wrapper d-flex justify-content-between flex-lg-row flex-column">
+                    <div class="news-box--width">
+                        <div class="home-news--img">
+                            <a href="#"><img src="./img/student-img.jpg"></img></a>
+                        </div>
+                        <div class="home-news-title--box  ">
+                            <a href="#">
+                              <div class="home-news-title home-news--space article--heading">
+                                  Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                              </div>
+                              <div class="home-news-sub article--heading">
+                                  Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                              </div>
+                            </a>
+                        </div>
+                      </div>
+
+                    <div class="news-box--wrap">
+                        <div class="vaccine-news--box home-news--line  d-flex">
+                            <div class="home-news--img box-img--width">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box box-title--width  ">
+                                <a href="#">
+                                    <div class="home-news-title home-news--space">
+                                        Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                    </div>
+                                  
+                                </a>
+                            </div>
+                        </div>
+                      
+                        <div class="vaccine-news--box home-news--line  d-flex">
+                            <div class="home-news--img box-img--width">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box box-title--width  ">
+                                <a href="#">
+                                    <div class="home-news-title home-news--space">
+                                        Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                    </div>
+                                  
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="vaccine-news--box   d-flex">
+                            <div class="home-news--img box-img--width">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box box-title--width  ">
+                                <a href="#">
+                                    <div class="home-news-title home-news--space">
+                                        Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                    </div>
+                                  
+                                </a>
+                            </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                
+
+             
+               
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-news video-news">
+        <div class="home-news--wrap">
+            <div class="container container-line d-flex justify-content-between flex-md-row flex-column">
+                <div class="col-12">
+                  <div class="title">
+                      <a href="#" class="title-bars title-name title-name--VN">Video</a>      
+                  </div>
+                  <div class="news-wrapper d-flex justify-content-between flex-lg-row flex-column">
+                    <div class="news-box--width">
+                        <div class="home-news--img">
+                            <a href="#"><img src="./img/student-img.jpg"></img></a>
+                        </div>
+                        <div class="home-news-title--box  ">
+                            <a href="#">
+                              <div class="home-news-title home-news--space article--heading">
+                                  Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                              </div>
+                              <div class="home-news-sub article--heading">
+                                  Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                              </div>
+                            </a>
+                        </div>
+                      </div>
+
+                    <div class="news-box--wrap d-flex justify-content-between  ">
+                        <div class="box-wrap--left d-flex flex-column ">
+                            <div class="col-12">
+                                <div class="vaccine-news--box   d-flex flex-column">
+                                    <div class="home-news--img video-img--width">
+                                        <a href="#"><img src="./img/student-img.jpg"></img></a>
+                                    </div>
+                                    <div class="home-news-title--box ">
+                                        <a href="#">
+                                            <div class="video-news-title home-news--space">
+                                                Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                            </div>
+                                          
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="col-12">
+                                <div class="vaccine-news--box   d-flex flex-column">
+                                    <div class="home-news--img video-img--width">
+                                        <a href="#"><img src="./img/student-img.jpg"></img></a>
+                                    </div>
+                                    <div class="home-news-title--box ">
+                                        <a href="#">
+                                            <div class="video-news-title home-news--space">
+                                                Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                            </div>
+                                          
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                            
+                        </div>
+                        
+                        <div class="box-wrap--left d-flex flex-column ">
+                            <div class="col-12">
+                                <div class="vaccine-news--box   d-flex flex-column">
+                                    <div class="home-news--img video-img--width">
+                                        <a href="#"><img src="./img/student-img.jpg"></img></a>
+                                    </div>
+                                    <div class="home-news-title--box ">
+                                        <a href="#">
+                                            <div class="video-news-title home-news--space">
+                                                Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                            </div>
+                                          
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="col-12">
+                                <div class="vaccine-news--box   d-flex flex-column">
+                                    <div class="home-news--img video-img--width">
+                                        <a href="#"><img src="./img/student-img.jpg"></img></a>
+                                    </div>
+                                    <div class="home-news-title--box ">
+                                        <a href="#">
+                                            <div class="video-news-title home-news--space">
+                                                Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                            </div>
+                                          
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                            
+                        </div>
+                       
+                        
+                      </div>
+                  </div>
+                
+
+             
+               
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-news HD_HĐ">
+        <div class="home-news--wrap">
+          <div class="container container-line d-flex justify-content-between flex-md-row flex-column">
+              <div class="news-box news-box--left ">
+                <div class="title">
+                    <a href="#" class="title-bars title-name title-name--VN">Hướng dẫn</a>      
+                </div>
+                  <div class="home-news--box home-news--line d-flex">
+                      <div class="home-news--img news-img--width">
+                          <a href="#"><img src="./img/student-img.jpg"></img></a>
+                      </div>
+                      <div class="home-news-title--box news-title--width  ">
+                          <a href="#">
+                              <div class="home-news-title home-news--space">
+                                  Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                              </div>
+                              <div class="home-news-sub ">
+                                  Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="home-news--box home-news--line d-flex">
+                      <div class="home-news--img news-img--width">
+                          <a href="#"><img src="./img/student-img.jpg"></img></a>
+                      </div>
+                      <div class="home-news-title--box news-title--width  ">
+                          <a href="#">
+                              <div class="home-news-title home-news--space">
+                                  Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                              </div>
+                              <div class="home-news-sub ">
+                                  Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="home-news--box  d-flex">
+                      <div class="home-news--img news-img--width">
+                          <a href="#"><img src="./img/student-img.jpg"></img></a>
+                      </div>
+                      <div class="home-news-title--box news-title--width  ">
+                          <a href="#">
+                              <div class="home-news-title home-news--space">
+                                  Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                              </div>
+                              <div class="home-news-sub ">
+                                  Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="news-box  ">
+                  <div class="title">
+                      <a href="#" class="title-bars title-name title-name--VN">Hoạt động địa phương</a>      
+                  </div>
+                    <div class="home-news--box home-news--line d-flex">
+                        <div class="home-news--img news-img--width">
+                            <a href="#"><img src="./img/student-img.jpg"></img></a>
+                        </div>
+                        <div class="home-news-title--box news-title--width  ">
+                            <a href="#">
+                                <div class="home-news-title home-news--space">
+                                    Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                </div>
+                                <div class="home-news-sub ">
+                                    Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-news--box home-news--line d-flex">
+                        <div class="home-news--img news-img--width">
+                            <a href="#"><img src="./img/student-img.jpg"></img></a>
+                        </div>
+                        <div class="home-news-title--box news-title--width  ">
+                            <a href="#">
+                                <div class="home-news-title home-news--space">
+                                    Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                </div>
+                                <div class="home-news-sub ">
+                                    Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-news--box  d-flex">
+                        <div class="home-news--img news-img--width">
+                            <a href="#"><img src="./img/student-img.jpg"></img></a>
+                        </div>
+                        <div class="home-news-title--box news-title--width  ">
+                            <a href="#">
+                                <div class="home-news-title home-news--space">
+                                    Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                </div>
+                                <div class="home-news-sub ">
+                                    Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="home-news World-news">
+        <div class="home-news--wrap">
+            <div class="container container-line d-flex justify-content-between flex-md-row flex-column">
+                <div class="col-12">
+                  <div class="title">
+                      <a href="#" class="title-bars title-name title-name--VN">Tình hình thế giới</a>      
+                  </div>
+                  <div class="news-wrapper d-flex justify-content-between flex-lg-row flex-column">
+                    <div class="news-box--width">
+                        <div class="home-news--img">
+                            <a href="#"><img src="./img/student-img.jpg"></img></a>
+                        </div>
+                        <div class="home-news-title--box  ">
+                            <a href="#">
+                              <div class="home-news-title home-news--space article--heading">
+                                  Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                              </div>
+                              <div class="home-news-sub article--heading">
+                                  Bộ Y tế yêu cầu các địa phương tăng cường và quyết liệt hơn nữa trong việc triển khai tiêm vaccine phòng COVID-19 mũi 3 cho người từ 18 tuổi trở lên, vận động người dân tham gia tiêm chúng kịp thời và đầy đủ để đạt được hiệu quả phòng bệnh tốt nhất...
+                              </div>
+                            </a>
+                        </div>
+                      </div>
+
+                    <div class="news-box--wrap">
+                        <div class="vaccine-news--box home-news--line  d-flex">
+                            <div class="home-news--img box-img--width">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box box-title--width  ">
+                                <a href="#">
+                                    <div class="home-news-title home-news--space">
+                                        Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                    </div>
+                                  
+                                </a>
+                            </div>
+                        </div>
+                      
+                        <div class="vaccine-news--box home-news--line  d-flex">
+                            <div class="home-news--img box-img--width">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box box-title--width  ">
+                                <a href="#">
+                                    <div class="home-news-title home-news--space">
+                                        Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                    </div>
+                                  
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="vaccine-news--box   d-flex">
+                            <div class="home-news--img box-img--width">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box box-title--width  ">
+                                <a href="#">
+                                    <div class="home-news-title home-news--space">
+                                        Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                    </div>
+                                  
+                                </a>
+                            </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                
+
+             
+               
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-news TinTuc">
+        <div class="home-news--wrap">
+            <div class="container container-line d-flex justify-content-between flex-md-row flex-column">
+                <div class="col-12">
+                  <div class="title">
+                      <a href="#" class="title-bars title-name title-name--VN">Tin Tức</a>      
+                  </div>
+                  <div class="news-wrapper d-flex flex-wrap  ">
+                    <div class=" d-flex flex-wrap ">
+                        <div class="tintuc-box">
+                            <div class="home-news--img">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box  ">
+                                <a href="#">
+                                  <div class="home-news-title home-news--space article--heading">
+                                      Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                  </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tintuc-box">
+                            <div class="home-news--img">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box  ">
+                                <a href="#">
+                                  <div class="home-news-title home-news--space article--heading">
+                                      Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                  </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tintuc-box">
+                            <div class="home-news--img">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box  ">
+                                <a href="#">
+                                  <div class="home-news-title home-news--space article--heading">
+                                      Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                  </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tintuc-box">
+                            <div class="home-news--img">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box  ">
+                                <a href="#">
+                                  <div class="home-news-title home-news--space article--heading">
+                                      Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                  </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tintuc-box">
+                            <div class="home-news--img">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box  ">
+                                <a href="#">
+                                  <div class="home-news-title home-news--space article--heading">
+                                      Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                  </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tintuc-box">
+                            <div class="home-news--img">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box  ">
+                                <a href="#">
+                                  <div class="home-news-title home-news--space article--heading">
+                                      Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                  </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tintuc-box">
+                            <div class="home-news--img">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box  ">
+                                <a href="#">
+                                  <div class="home-news-title home-news--space article--heading">
+                                      Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                  </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tintuc-box">
+                            <div class="home-news--img">
+                                <a href="#"><img src="./img/student-img.jpg"></img></a>
+                            </div>
+                            <div class="home-news-title--box  ">
+                                <a href="#">
+                                  <div class="home-news-title home-news--space article--heading">
+                                      Bộ Y tế "nhắc" các địa phương quyết liệt tăng cường tiêm vaccine phòng COVID-19 mũi 3 cho người trên 18 tuổi
+                                  </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-news link">
+        <div class="container covid19-container">
+            <div class="title">
+                <a href="#" class="title-bars title-name title-font--size">Liên kết</a>
+            </div>
+            <div class="news-wrapper d-flex flex-wrap  ">
+                <div class=" d-flex flex-wrap ">
+                    <div class="tintuc-box">
+                        <div class="home-news--img">
+                            <a href="#"><img src="./img/Bo_YT.jpg"></img></a>
+                        </div>
+                       
+                    </div>
+                    <div class="tintuc-box">
+                        <div class="home-news--img">
+                            <a href="#"><img src="./img/Cong_Info.jpg"></img></a>
+                        </div>
+                      
+                    </div>
+                    <div class="tintuc-box">
+                        <div class="home-news--img">
+                            <a href="#"><img src="./img/SK_Life.png"></img></a>
+                        </div>
+                      
+                    </div>
+                    <div class="tintuc-box">
+                        <div class="home-news--img">
+                            <a href="#"><img src="./img/vccorp.png"></img></a>
+                        </div>
+    
+                    </div>
+
+                </div>
+              </div>
+        </div>
+    </div>
+   
+    <footer class="footer ">
+        <div class="container d-flex justify-content-between align-items-center flex-lg-row flex-column">
+            <div class=" footer-info d-flex">
+              <div class="footer-img--logo d-md-block d-none">
+                  <img src="./img/logo.png"></img>
+              </div>
+              <div class="footer-details text-center ">
+                  <div class="footer-details--content">
+                      Quản lý nội dung: báo sức khỏe và đời sống - cơ quan ngôn luận của bộ y tế
+                  </div>
+                  <div class="footer-details--address">
+                      Địa chỉ: Số 138A Giảng Võ - Quận Ba Đình - TP. Hà Nội
+                  </div>
+                  <div class="footer-details--phone">
+                      Đường dây nóng: 19009095
+                  </div>
+                  <div class="footer-details--email">
+                      Email: covid19@suckhoedoisong.vn
+                  </div>
+              </div>
+            </div>
+            <div class=" img-vscorp  mt-lg-0 mt-5">
+                <img src="./img/vccorp-s.png"></img>
+            </div>
+        </div>
+    </footer>
+
+</body>
+    <script type="text/javascript" src="./js/libs/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/libs/components/showSubMenu.js"></script>
+    <script type="text/javascript" src="./js/libs/components/getDate.js"></script>
+</html>

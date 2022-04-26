@@ -1,0 +1,451 @@
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: inline-block !important;
+}
+
+.content {
+  margin: 1rem 0 2rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.title-bars {
+  position: relative;
+}
+
+.title-bars::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 2.6rem;
+  top: 0;
+  left: 0;
+  right: "";
+  bottom: "";
+  background-color: #2e3192;
+}
+
+.title-bars::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 2.6rem;
+  top: 0;
+  left: 3px;
+  right: "";
+  bottom: "";
+  background-color: #ED1C24;
+}
+
+.title-name {
+  text-decoration: none;
+  list-style: none;
+}
+
+.title-name--VN {
+  font-size: 2.2rem;
+  font-family: "Merriweather";
+  color: #2e3192;
+  font-weight: 800;
+  margin-right: 1rem;
+  padding-left: 1.6rem;
+}
+.title-name--World {
+  font-size: 1.8rem;
+  font-family: "Merriweather";
+  color: rgba(46, 49, 146, 0.6);
+  font-weight: bold;
+}
+.title-name--World::before {
+  content: "/";
+  color: rgba(46, 49, 146, 0.6);
+  height: 24px;
+  left: 0;
+  font-size: 34px;
+  margin-right: 16px;
+  position: relative;
+  top: 0px;
+}
+
+.content-information--width {
+  width: calc(33.3333333333% - 1rem);
+}
+
+.content-information--details {
+  padding: 8px;
+  text-align: center;
+  background-color: var(--color);
+}
+
+.name-details {
+  font-size: 1.3rem;
+  font-family: "Merriweather";
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.number-details {
+  font-size: 1.8rem;
+  font-family: "Merriweather";
+  color: var(--colorText);
+  font-weight: 600;
+}
+.time-details {
+  font-size: 1.3rem;
+  font-family: "Merriweather";
+  color: #444;
+  font-weight: 500;
+}
+.time-details span {
+  font-weight: bold;
+}
+
+.content-article {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.content-article--details {
+  padding-right: 2rem;
+}
+
+.article--img {
+  border-radius: 3px;
+}
+
+.article--heading {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.article--heading-details {
+  font-size: 2.4rem;
+  font-family: "Merriweather";
+  color: #333;
+  font-weight: 600;
+}
+.article--subHeading a {
+  font-size: 1.6rem;
+  font-family: "Arial";
+  color: #444;
+  font-weight: normal;
+}
+.content-article--information {
+  padding-left: 1rem;
+}
+
+.article-wrap {
+  height: 48rem;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.content-article--img {
+  width: 100%;
+}
+
+.article-information--wrap {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 2.2rem;
+  padding-left: 1rem;
+  background: #f0f8ff;
+  position: relative;
+}
+
+.article-information--wrap::before {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #2e3192;
+  left: -5px;
+  top: 1.6rem;
+}
+
+.article-information--wrap::after {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.title-font--size {
+  font-size: 2.2rem;
+  font-family: "Merriweather";
+  color: #2e3192;
+  font-weight: 600;
+  padding-left: 1.4rem;
+}
+.time {
+  position: absolute;
+  top: 13px;
+  font-size: 14px;
+  background: #f0f8ff;
+  background-color: #f0f8ff;
+  left: 5rem;
+  z-index: 2;
+}
+
+.notice {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-family: "Merriweather";
+  color: #333;
+  font-weight: 600;
+}
+.details-heading {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-family: "";
+  color: #444;
+  font-weight: normal;
+}
+.details-body {
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+  font-family: "";
+  color: #444;
+  font-weight: normal;
+}
+.btn-details {
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.more-details {
+  font-size: 1.6rem;
+  font-family: "Merriweather";
+  color: #2e3192;
+  font-weight: normal;
+  background: none;
+  outline: none;
+  border: none;
+}
+@media (max-width: 767.98px) {
+  .content-article--information {
+    padding: 0;
+  }
+}
+.home-news--wrap {
+  padding-top: 2rem;
+}
+
+.home-news {
+  margin-bottom: 3rem;
+}
+
+.news-box {
+  padding-right: 2rem;
+  width: calc(50% - 2rem);
+}
+
+.news-box--left {
+  position: relative;
+}
+
+.news-box--left::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #ccc;
+  right: -1rem;
+}
+
+.home-news--box {
+  padding: 20px 0;
+}
+
+.news-img--width {
+  width: 23rem;
+  margin-right: 1.8rem;
+}
+
+.home-news--img {
+  height: max-content;
+}
+
+.news-title--width {
+  width: calc(100% - 23rem);
+}
+
+.home-news-title {
+  letter-spacing: 0.02em;
+  line-height: 130%;
+  font-size: 1.6rem;
+  font-family: "Merriweather";
+  color: #333;
+  font-weight: 600;
+}
+.home-news--space {
+  margin-bottom: 1rem;
+  overflow: hidden;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.home-news-sub {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 1.4rem;
+  font-family: "Merriweather";
+  color: #444;
+  font-weight: 500;
+}
+.home-news--line {
+  border-bottom: 1px solid #ccc;
+}
+
+@media (max-width: 767.98px) {
+  .news-box {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    border-bottom: 1px solid #2e3192;
+  }
+
+  .news-box--left::before {
+    display: none;
+  }
+}
+@media (max-width: 991.98px) {
+  .news-img--width {
+    width: 13rem;
+  }
+
+  .home-news-sub {
+    display: none;
+  }
+
+  .home-news-title {
+    font-size: 1.6rem;
+  }
+
+  .news-title--width {
+    width: calc(100% - 13rem);
+  }
+}
+.news-box--width {
+  width: 52rem;
+  padding-right: 2rem;
+}
+
+.news-box--wrap {
+  width: calc(100% - 54rem);
+}
+
+.vaccine-news--box {
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+  padding-right: 2rem;
+}
+
+.box-img--width {
+  width: 18rem;
+  margin-right: 1.6rem;
+}
+
+.box-title--width {
+  flex: 1;
+}
+
+@media (max-width: 991.98px) {
+  .news-box--width {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .news-box--wrap {
+    width: 100%;
+  }
+}
+.video-img--width {
+  width: calc(100% - 2rem);
+}
+
+.video-news-title {
+  padding-top: 1rem;
+  font-size: 1.4rem;
+  font-family: "Merriweather";
+  color: #444;
+  font-weight: 600;
+}
+.tintuc-box {
+  width: calc(25% - 2rem);
+  margin-right: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 991.98px) {
+  .tintuc-box {
+    width: calc(33.3333333333% - 2rem);
+  }
+}
+@media (max-width: 767.98px) {
+  .tintuc-box {
+    width: calc(50% - 2rem);
+  }
+}
+.footer {
+  background-color: #2e3192;
+}
+
+.footer-info {
+  padding-top: 1rem;
+}
+
+.footer-img--logo {
+  position: relative;
+  top: -3rem;
+}
+
+.footer-details {
+  margin-left: 3rem;
+  color: white;
+}
+
+.footer-details--content {
+  font-size: 1.6rem;
+  font-family: "Merriweather";
+  color: white;
+  font-weight: 600;
+}
+.footer-details--address, .footer-details--phone {
+  font-size: 1.4rem;
+  font-family: "Merriweather";
+  color: white;
+  font-weight: 600;
+}
+.footer-details--email {
+  font-size: 1.2rem;
+  font-family: "Merriweather";
+  color: white;
+  font-weight: 600;
+}
+.img-vscorp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 991.98px) {
+  .img-vscorp {
+    width: 30%;
+  }
+}
+
+/*# sourceMappingURL=content.css.map */

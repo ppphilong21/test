@@ -1,0 +1,63 @@
+@import '../_mixins.scss';
+@import '../_variable.scss';
+
+.box-article--heading a{
+    @include headingText(1.6rem, "Merriweather", 600, $textType);
+}
+.box-news--space{
+   
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+     -webkit-line-clamp: 2; 
+}
+.contact-article{
+    padding-left: 2rem;
+}
+.hospital-numbers{
+    padding: 0;
+    max-height: 360px;
+    overflow-y: auto;
+    border: 1px solid rgb(234, 234, 244);
+    box-sizing: border-box;
+    border-radius: 0px 0px 3px 3px;
+}
+.numbers-details{
+
+    border-bottom: 1px solid rgb(234, 234, 244);
+    padding: 1rem;
+    @include headingText(1.2rem, "Merriweather", 500, $textType);
+}
+.hospital-phone{
+    text-align: right;
+}
+.hospital-phone--list{
+    
+    margin-bottom: 2rem;
+    background: rgb(240, 239, 244);
+    border-radius:3px 3px 0 0;
+    padding: 0.6rem;
+    text-align: center;
+    @include headingText(1.6rem, "Merriweather", 600, $textType);
+}
+
+
+@media (min-width: 992px) {
+    .box-list--line{
+        border-top: 1px solid #ccc;
+        padding-top: 2rem;
+        margin-top: 2rem;
+    }
+}
+
+
+
+
+@media (max-width: 991.98px) {
+    .sub-box--line{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+}

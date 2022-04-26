@@ -1,0 +1,392 @@
+@import '../_mixins.scss';
+@import '../_variable.scss';
+
+.hide{
+    display: none !important;
+}
+.show{
+    display: inline-block !important;
+}
+
+  //content section
+  .content{
+    margin: 1rem 0 2rem;
+}
+
+.title{
+    margin-bottom: 1rem;
+   
+}
+.title-bars{
+    position: relative;
+}
+.title-bars::before{
+    @include titleBar(3px, 2.6rem,$textBlue,0,0,"", "");
+    
+}
+.title-bars::after{
+    @include titleBar(3px, 2.6rem,$textRed,0, 3px,"", "");
+
+}
+.title-name{
+    text-decoration: none;
+    list-style: none;
+   
+}
+.title-name--VN{
+    @include headingText(2.2rem, 'Merriweather', 800, $textBlue);
+    margin-right: 1rem;
+    padding-left:1.6rem; 
+}
+.title-name--World{
+    @include headingText(1.8rem, 'Merriweather', bold, rgba(46, 49, 146, 0.6));
+    
+}
+.title-name--World::before{
+    content: "/";
+    color:rgba(46, 49, 146, 0.6);
+    height: 24px;
+    left: 0;
+    font-size: 34px;
+    margin-right: 16px;
+    position: relative;
+    top: 0px;
+}
+.content-information--width{
+    width: calc(100% / 3 - 1rem);
+}
+
+.content-information--details{
+    padding: 8px;
+    text-align: center;
+    background-color: var(--color) ;
+}
+.name-details{
+    @include headingText(1.3rem, 'Merriweather', 600, $textType);
+    text-transform: uppercase;
+}
+.number-details{
+    @include headingText(1.8rem, 'Merriweather', 600, var(--colorText));
+}
+.time-details{
+    @include headingText(1.3rem, 'Merriweather', 500, $textSub);
+}
+.time-details span{
+    font-weight: bold;
+}
+
+//content-body 
+
+.content-article{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.content-article--details{
+    padding-right: 2rem;
+}
+.article--img{
+    border-radius: 3px;
+}
+.article--heading{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.article--heading-details{
+    @include headingText(2.4rem, 'Merriweather', 600, $textType);
+}
+
+.article--subHeading a{
+    @include headingText(1.6rem, 'Arial', normal, $textSub);
+}
+
+.content-article--information{
+    padding-left: 1rem;
+}
+.article-wrap{
+    height: 48rem;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.content-article--img{
+    width: 100%;
+}
+
+.article-information--wrap{
+    border-left: 1px solid rgba(0,0,0,.1);
+    padding-top: 2.2rem;
+    padding-left: 1rem; 
+   
+    
+    background: #f0f8ff;
+    position: relative;
+}
+.article-information--wrap::before{
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: $textBlue;
+    left: -5px;
+    top: 1.6rem;
+}
+.article-information--wrap::after{
+    content: '';
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.title-font--size{
+    @include headingText(2.2rem, 'Merriweather', 600, $textBlue);
+    padding-left: 1.4rem;
+}
+
+.time {
+    position: absolute;
+    top: 13px;
+    font-size: 14px;
+    background: #f0f8ff;
+    background-color: #f0f8ff;
+    left: 5rem;
+    z-index: 2;
+}
+.notice{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    @include headingText(1.8rem, 'Merriweather',600, $textType);
+}
+.details-heading{
+    margin-bottom: 1rem;
+    @include headingText(1.6rem, '',normal, $textSub);
+}
+.details-body{
+   padding-bottom: 1rem;
+    @include headingText(1.6rem, '',normal, $textSub);
+}
+.btn-details{
+    justify-content: center;
+    margin-top: 2rem;
+}
+.more-details{
+    @include headingText(1.6rem, 'Merriweather',normal,$textBlue);
+    background: none;
+    outline: none;
+    border: none;
+}
+
+
+
+@media (max-width: 767.98px) {
+    .content-article--information{
+        padding: 0;
+    }
+}
+
+
+
+//home-news
+.home-news--wrap{
+    padding-top: 2rem;
+}
+.home-news{
+    margin-bottom: 3rem;
+}
+.news-box{
+    padding-right:2rem ;
+    width: calc(50% - 2rem);
+}
+.news-box--left{
+    position: relative;
+   // border-right: 1px solid #ccc;
+}
+.news-box--left::before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height:100%;
+    background-color: #ccc;
+    right: -1rem;
+}
+.home-news--box{
+    padding: 20px 0;
+}
+.news-img--width{
+    width: 23rem;
+    margin-right: 1.8rem;
+}
+.home-news--img{
+   
+    height: max-content;
+}
+.news-title--width{
+    width: calc(100% - 23rem);
+}
+
+.home-news-title{
+    letter-spacing: .02em;
+    line-height: 130%;
+    @include headingText(2rem, "Merriweather", 600, $textType);
+}
+.home-news--space{
+    margin-bottom: 1rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+     -webkit-line-clamp: 2; 
+}
+.home-news-sub{
+    overflow: hidden;
+    display: -webkit-box ;
+    -webkit-box-orient: vertical;
+     -webkit-line-clamp: 2; 
+     @include headingText(1.4rem, "Merriweather", 500, $textSub);
+}
+.home-news--line{
+    border-bottom: 1px solid #ccc;
+}
+@media (max-width: 767.98px) {
+    .news-box{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 100%;
+        border-bottom: 1px solid $textBlue;
+    }
+    .news-box--left::before{
+        display: none;
+    }
+}
+@media (max-width: 991.98px) {
+    .news-img--width{
+        width: 13rem;
+       
+    }
+    .home-news-sub{
+        display: none;
+    }
+    .home-news-title{
+        font-size: 1.6rem;
+    }
+    .news-title--width{
+        width: calc(100% - 13rem);
+    }
+}
+
+
+
+//vaccine
+.news-box--width{
+    width:52rem;
+    padding-right:2rem ;
+}
+.news-box--wrap{
+    width: calc(100% - 54rem);
+}
+.vaccine-news--box{
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+}
+.box-img--width{
+    width: 18rem;
+    margin-right: 1.6rem;
+}
+.box-title--width{
+    flex: 1;
+}
+
+@media (max-width: 991.98px) {
+    .news-box--width{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    .news-box--wrap{
+        width: 100%;
+    }
+}
+
+
+//videos
+.video-img--width{
+    width: calc(100% - 2rem);
+}
+.video-news-title{
+    padding-top: 1rem;
+    @include headingText(1.4rem, "Merriweather", 600, $textSub);
+}
+
+
+
+//tintuc
+.tintuc-box{
+    width: calc(100% / 4 - 2rem);
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 991.98px) {
+    //tintuc
+    .tintuc-box{
+        width: calc(100% / 3 - 2rem);
+        
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    //tintuc
+    .tintuc-box{
+        width: calc(100% / 2 - 2rem);
+       
+    }
+}
+
+
+
+//footer
+.footer{
+    background-color: $textBlue;
+}
+
+.footer-info{
+    padding-top: 1rem;
+}
+
+.footer-img--logo{
+    position: relative;
+    top: -3rem;
+}
+
+.footer-details{
+    margin-left: 3rem;
+    color: $textWhite;
+}
+
+.footer-details--content{
+    @include headingText(1.6rem, "Merriweather", 600, $textWhite);
+}
+.footer-details--address, .footer-details--phone{
+ 
+    @include headingText(1.4rem, "Merriweather", 600, $textWhite);
+}
+.footer-details--email{
+  
+    @include headingText(1.2rem, "Merriweather", 600, $textWhite);
+}
+
+.img-vscorp{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 991.98px) {
+    .img-vscorp{
+        width: 30%;
+    }
+}
